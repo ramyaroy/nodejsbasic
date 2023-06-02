@@ -1,16 +1,8 @@
-
-
-
 <div class="container">
-  <h2>Bordered Table</h2>
-
- 
-  <form action="http://localhost:3000/add" class="pb-3" method="get"><button type="submit" class="btn btn-sm btn-success">Add Data </button></form>
-  
-
-  <table class="table table-bordered">
+  <h2>Crud Operations </h2>
+  <a href="{{url}}/add" class="btn btn-sm btn-success ml-4"> Create </a>
+  <table class="table table-bordered mt-4">
     <thead>
-
       <tr>
         <th>Name</th>
         <th>Email</th>
@@ -18,9 +10,10 @@
       </tr>
     </thead>
     <tbody>
-{{{result}}}
-
+      {{{result}}}
     </tbody>
   </table>
+   
+
 </div>
 

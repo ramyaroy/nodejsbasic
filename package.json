@@ -1,18 +1,22 @@
 {
-  "name": "nd",
-  "version": "1.0.0",
+  "name": "nodejscrud",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
   },
-  "author": "NWT",
-  "license": "ISC",
+  "author": "RamyaRoy",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "consolidate": "^0.14.5",
     "express": "^4.15.4",
     "express-handlebars": "^7.0.7",
-    "mongoose": "^7.2.2",
     "mustache": "^2.3.0",
     "mysql": "^2.15.0",
     "pug": "^3.0.2",
